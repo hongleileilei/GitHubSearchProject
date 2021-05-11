@@ -14,12 +14,11 @@ class Search extends React.Component {
     render() {
         return (
             <div className="search-page">
-                <h2 className="second-heading"></h2>
                 <form onSubmit={this._handleSubmit}>
                     <input ref="userInput" className="search-page__input" type="text" placeholder="Enter a Username" />
                     <button className="search-page__button">Search</button>
                 </form>
-                <h2 className="search-arrow"></h2>
+
             </div>
         );
     }
